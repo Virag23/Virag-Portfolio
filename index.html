@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virag Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dark-mode">
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Virag.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#project">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item ms-3">
+                        <button id="theme-toggle" class="btn btn-sm btn-outline-primary">
+                            <i class="fas fa-sun"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="social-sidebar">
+        <a href="https://www.linkedin.com/in/virag-nandgaonkar/" class="social-icon"><i
+                class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/Virag23" class="social-icon"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/vira.g2310?igsh=MWhqeW55dmxzZm5jOA==" class="social-icon"><i
+                class="fab fa-instagram"></i></a>
+        <a href="./Virag_Nandgaonkar_resume.pdf" download class="social-icon"><i class="fas fa-download"></i></a>
+    </div>
+
+    <section id="home" class="min-vh-100 d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <div class="image-wrapper">
+                        <img src="Virag .jpeg" alt="Virag Nandgaonkar" class="img-fluid full-height-img">
+                    </div>
+                </div>
+                <div class="col-lg-7 text-start ps-lg-5">
+                    <h1 class="display-1 fw-bold mb-2">HELLO</h1>
+                    <h2 class="display-4 fw-bold name-title text-accent mb-3">Virag Nandgaonkar</h2>
+                    <h3 class="h2 text-secondary-custom d-flex align-items-center">
+                        <span class="typing-text"></span><span class="cursor">|</span>
+                    </h3>
+                    <div class="mt-4">
+                        <a href="#about" class="btn btn-accent btn-lg glow-button me-3">About Me</a>
+                        <a href="#contact" class="btn btn-outline-accent btn-lg">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-5 section-bg">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">About Me</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-10 text-center">
+                    <p class="lead mb-4 description-text">
+                        I am a B.Tech undergraduate in Electronics and Telecommunication Engineering with hands-on
+                        experience in Web
+                        Development. As a Smart India Hackathon 2024 Winner, I have honed my leadership skills by
+                        successfully leading
+                        a team, managing high pressure situations, and delivering results within strict deadlines. My
+                        experience has
+                        strengthened my problem-solving abilities, teamwork, and adaptability, making me well-equipped
+                        to take on
+                        challenging roles in technology and innovation.
+                    </p>
+                    <a href="Virag_Nandgaonkar_resume.pdf" download class="btn btn-accent glow-button">
+                        Download Resume <i class="fas fa-download ms-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">My Skills</h2>
+            <div class="ticker-wrapper">
+                <div class="ticker-content" id="skills-ticker">
+                    <div class="skill-item"><i class="fab fa-html5"></i> HTML</div>
+                    <div class="skill-item"><i class="fab fa-css3-alt"></i> CSS</div>
+                    <div class="skill-item"><i class="fab fa-js"></i> Javascript</div>
+                    <div class="skill-item"><i class="fas fa-c"></i> C</div>
+                    <div class="skill-item"><i class="fab fa-bootstrap"></i> Bootstrap</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="py-5 section-bg">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Education</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card edu-card h-100">
+                        <div class="card-body text-center p-4">
+                            <i class="fas fa-graduation-cap fa-3x mb-3 text-accent"></i>
+                            <h4 class="card-title fw-bold">Walchand Institute of Technology, Solapur</h4>
+                            <p class="card-text text-secondary-custom mb-1">B.Tech (Sem 8)</p>
+                            <p class="card-text mb-2">Electronics & Telecommunication</p>
+                            <h5 class="text-accent mb-2">CGPA: 8.75</h5>
+                            <span class="badge bg-secondary">2022 - Present</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card edu-card h-100">
+                        <div class="card-body text-center p-4">
+                            <i class="fas fa-university fa-3x mb-3 text-accent"></i>
+                            <h4 class="card-title fw-bold">Major Hemant Jakate Institute</h4>
+                            <p class="card-text text-secondary-custom mb-1">HSC (Science)</p>
+                            <h5 class="text-accent mb-2">Percentage: 72%</h5>
+                            <span class="badge bg-success">2022</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card edu-card h-100">
+                        <div class="card-body text-center p-4">
+                            <i class="fas fa-school fa-3x mb-3 text-accent"></i>
+                            <h4 class="card-title fw-bold">Sanskar Vidya Sagar</h4>
+                            <p class="card-text text-secondary-custom mb-1">SSC</p>
+                            <h5 class="text-accent mb-2">Percentage: 73%</h5>
+                            <span class="badge bg-success">2020</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="project" class="py-5">
+        <div class="container project-container-wrapper">
+            <h2 class="section-title text-center mb-5">Featured Project</h2>
+
+            <div class="row justify-content-center align-items-center">
+                <!-- Project Details Column (Initially Hidden) -->
+                <div id="details-col" class="col-lg-5 text-start d-none">
+                    <div id="project-details" class="project-details fade-in">
+                        <h3 class="text-accent fw-bold mb-3">"Taste It" – A Complete Static Website Project</h3>
+                        <p class="mb-3">
+                            Currently working at <strong>Fortune Cloud Technologies</strong> on my Full Stack journey!
+                        </p>
+                        <p class="mb-4">
+                            After mastering HTML and CSS, I integrated Bootstrap to build a fully responsive, multi-page
+                            website called "Taste It".
+                        </p>
+                        <h5 class="text-accent">Key Features:</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check-circle text-accent me-2"></i> <strong>Responsive
+                                    Navigation:</strong> Smooth switching between Home, Recipes, and About.</li>
+                            <li><i class="fas fa-check-circle text-accent me-2"></i> <strong>Weekly Meal Plan:</strong>
+                                Structured using complex HTML Tables.</li>
+                            <li><i class="fas fa-check-circle text-accent me-2"></i> <strong>Interactive UI:</strong>
+                                Recipe cards with hover effects.</li>
+                            <li><i class="fas fa-check-circle text-accent me-2"></i> <strong>Rich Media:</strong>
+                                Embedded YouTube tutorials.</li>
+                            <li><i class="fas fa-check-circle text-accent me-2"></i> <strong>User Engagement:</strong>
+                                Functional Contact Us form.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Power & Wire Column -->
+                <div id="power-col" class="col-lg-2 text-center position-relative d-none d-lg-block">
+                    <div class="power-button-container">
+                        <div id="power-btn" class="power-button">
+                            <i class="fas fa-power-off"></i>
+                        </div>
+                        <div class="wire-path">
+                            <div id="current-flow" class="current-line"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Laptop Column -->
+                <div id="laptop-col" class="col-lg-9">
+                    <!-- Initially wide, JS will adjust if needed or grid just reflows -->
+                    <div class="laptop-frame">
+                        <div class="laptop-screen">
+                            <div id="screen-content" class="screen-content flickering">
+                                <div class="flicker-overlay"></div>
+                                <div class="boot-text">Click Power Button</div>
+                                <video id="project-video" class="project-video d-none" controls> <!-- Removed loop -->
+                                    <source src="Project 1.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                        </div>
+                        <div class="laptop-base"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies" class="py-5 section-bg">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Hobbies</h2>
+            <div class="row text-center justify-content-center">
+                <div class="col-6 col-md-3 mb-4">
+                    <div class="hobby-item">
+                        <i class="fas fa-gamepad fa-2x mb-2"></i>
+                        <h5>Gaming</h5>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 mb-4">
+                    <div class="hobby-item">
+                        <i class="fas fa-music fa-2x mb-2"></i>
+                        <h5>Cycling</h5>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 mb-4">
+                    <div class="hobby-item">
+                        <i class="fas fa-camera fa-2x mb-2"></i>
+                        <h5>Travel</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Get In Touch</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="card contact-card">
+                        <div class="card-body p-4">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea class="form-control" id="message" rows="4"
+                                        placeholder="Your Message"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-accent w-100 glow-button">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 text-center">
+        <div class="container">
+            <p class="mb-0">&copy; 2026 Virag Nandgaonkar. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
