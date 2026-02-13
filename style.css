@@ -196,7 +196,6 @@ section {
 .ticker-content {
     display: inline-block;
     animation: scroll 5s linear infinite;
-    /* Ensure content is wide enough for seamless loop via JS duplication */
 }
 
 .skill-item {
@@ -243,7 +242,6 @@ section {
     border-radius: 15px;
 }
 
-/* Form */
 .form-control {
     background-color: var(--bg-color);
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -259,12 +257,10 @@ section {
 
 .form-control::placeholder {
     color: rgba(248, 250, 252, 0.5);
-    /* Light color for dark mode */
 }
 
 body.light-mode .form-control::placeholder {
     color: rgba(15, 23, 42, 0.5);
-    /* Dark color for light mode */
 }
 
 .laptop-frame {

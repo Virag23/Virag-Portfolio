@@ -12,6 +12,7 @@
 </head>
 
 <body class="dark-mode">
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container">
             <a class="navbar-brand" href="#">Virag.</a>
@@ -35,6 +36,7 @@
         </div>
     </nav>
 
+    <!-- Social Media -->
     <div class="social-sidebar">
         <a href="https://www.linkedin.com/in/virag-nandgaonkar/" class="social-icon"><i
                 class="fab fa-linkedin-in"></i></a>
@@ -44,6 +46,7 @@
         <a href="./Virag_Nandgaonkar_resume.pdf" download class="social-icon"><i class="fas fa-download"></i></a>
     </div>
 
+    <!-- Intro -->
     <section id="home" class="min-vh-100 d-flex align-items-center">
         <div class="container">
             <div class="row align-items-center">
@@ -67,6 +70,7 @@
         </div>
     </section>
 
+    <!-- About Section -->
     <section id="about" class="py-5 section-bg">
         <div class="container">
             <h2 class="section-title text-center mb-5">About Me</h2>
@@ -91,6 +95,7 @@
         </div>
     </section>
 
+    <!-- Skills Section -->
     <section id="skills" class="py-5">
         <div class="container">
             <h2 class="section-title text-center mb-5">My Skills</h2>
@@ -106,6 +111,7 @@
         </div>
     </section>
 
+    <!-- Education Section -->
     <section id="education" class="py-5 section-bg">
         <div class="container">
             <h2 class="section-title text-center mb-5">Education</h2>
@@ -152,8 +158,9 @@
         <div class="container project-container-wrapper">
             <h2 class="section-title text-center mb-5">Featured Project</h2>
 
-            <div class="row justify-content-center align-items-center">
-                <!-- Project Details Column (Initially Hidden) -->
+            <!-- Project 1 (Taste It) -->
+            <div class="row justify-content-center align-items-center mb-5">
+                <!-- Project Details Column -->
                 <div id="details-col" class="col-lg-5 text-start d-none">
                     <div id="project-details" class="project-details fade-in">
                         <h3 class="text-accent fw-bold mb-3">"Taste It" – A Complete Static Website Project</h3>
@@ -194,14 +201,77 @@
 
                 <!-- Laptop Column -->
                 <div id="laptop-col" class="col-lg-9">
-                    <!-- Initially wide, JS will adjust if needed or grid just reflows -->
                     <div class="laptop-frame">
                         <div class="laptop-screen">
                             <div id="screen-content" class="screen-content flickering">
                                 <div class="flicker-overlay"></div>
-                                <div class="boot-text">Click Power Button</div>
-                                <video id="project-video" class="project-video d-none" controls> <!-- Removed loop -->
+                                <div id="boot-text-1" class="boot-text">Click Power Button</div>
+                                <video id="project-video" class="project-video d-none" controls>
                                     <source src="Project 1.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                        </div>
+                        <div class="laptop-base"></div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="my-5 border-secondary">
+
+            <!-- Project 2 (EasyEatify) -->
+            <div class="row justify-content-center align-items-center">
+                <!-- Project Details Column -->
+                <div id="details-col-2" class="col-lg-5 text-start d-none">
+                    <div id="project-details-2" class="project-details fade-in">
+                        <h3 class="text-accent fw-bold mb-3">EasyEatify – Restaurant Management App</h3>
+                        <p class="mb-3">
+                            <strong>Breathing Life into Webpages with JavaScript ⚡</strong>
+                        </p>
+                        <p class="mb-4">
+                            HTML and CSS build the body, but JavaScript gives it a brain. After mastering static
+                            layouts, I built EasyEatify without a backend database yet.
+                        </p>
+                        <h5 class="text-accent">Key Logic Implemented:</h5>
+                        <ul class="list-unstyled">
+                            <li><i class="fas fa-check-circle text-accent me-2"></i> <strong>DOM Manipulation:</strong>
+                                Dynamically rendering menu items and order cards.</li>
+                            <li><i class="fas fa-check-circle text-accent me-2"></i> <strong>Event Handling:</strong>
+                                Capturing clicks for adding items, filtering categories.</li>
+                            <li><i class="fas fa-check-circle text-accent me-2"></i> <strong>Math Logic:</strong>
+                                Calculating subtotals, taxes (5%), and grand totals.</li>
+                            <li><i class="fas fa-check-circle text-accent me-2"></i> <strong>Conditional
+                                    Rendering:</strong> Different dashboards for Customer vs. Manager.</li>
+                        </ul>
+                        <div class="mt-3">
+                            <a href="https://virag23.github.io/EasyEatify/" target="_blank"
+                                class="btn btn-sm btn-outline-accent">
+                                <i class="fas fa-external-link-alt me-2"></i>Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Power & Wire Column -->
+                <div id="power-col-2" class="col-12 col-lg-2 text-center position-relative mb-4 mb-lg-0">
+                    <div class="power-button-container">
+                        <div id="power-btn-2" class="power-button">
+                            <i class="fas fa-power-off"></i>
+                        </div>
+                        <div class="wire-path">
+                            <div id="current-flow-2" class="current-line"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Laptop Column -->
+                <div id="laptop-col-2" class="col-lg-9">
+                    <div class="laptop-frame">
+                        <div class="laptop-screen">
+                            <div id="screen-content-2" class="screen-content flickering">
+                                <div class="flicker-overlay"></div>
+                                <div id="boot-text-2" class="boot-text">Click Power Button</div>
+                                <video id="project-video-2" class="project-video d-none" controls>
+                                    <source src="Project 2.mp4" type="video/mp4">
                                 </video>
                             </div>
                         </div>
