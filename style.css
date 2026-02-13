@@ -475,3 +475,48 @@ footer {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     color: var(--text-sec);
 }
+
+/* Carousel Customization */
+#projectCarousel {
+    position: relative;
+    padding-bottom: 50px;
+    /* Space for controls */
+}
+
+#projectCarousel .carousel-control-prev,
+#projectCarousel .carousel-control-next {
+    width: 40px;
+    height: 40px;
+    background-color: var(--accent);
+    border-radius: 50%;
+    top: auto;
+    bottom: 0;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
+
+#projectCarousel .carousel-control-prev:hover,
+#projectCarousel .carousel-control-next:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px var(--accent);
+}
+
+#projectCarousel .carousel-control-prev {
+    left: auto;
+    right: 60px;
+    /* Position next to the 'next' button */
+}
+
+#projectCarousel .carousel-control-next {
+    right: 10px;
+}
+
+/* Adjust icon size */
+#projectCarousel .carousel-control-prev-icon,
+#projectCarousel .carousel-control-next-icon {
+    width: 20px;
+    height: 20px;
+    background-color: transparent !important;
+    /* Remove inline style bg since button has it */
+}
